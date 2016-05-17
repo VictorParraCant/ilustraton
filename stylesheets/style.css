@@ -57,13 +57,14 @@
     padding: 5px 0px; }
 
 .info {
+  font-family: Roboto;
   background-color: #F9DC5F;
   padding: 50px 0px; }
   .info .titulo {
     margin: 50px 0px;
     text-align: center;
     font-size: 2em;
-    font-weight: 300; }
+    font-weight: lighter; }
   .info img {
     margin: 60px auto; }
   .info .cuadro {
@@ -90,7 +91,7 @@
   padding: 50px 0px; }
   .agenda h2 {
     padding: 10px 0px;
-    margin: 30px 0px;
+    margin: 50px 0px;
     text-align: center;
     font-size: 3.5em;
     font-weight: bold; }
@@ -98,12 +99,89 @@
     background-color: #ffffff;
     border-radius: 20px;
     padding: 25px 20px;
-    margin: 0px 20px;
+    margin: 10px 20px;
     min-height: 400px; }
     .agenda .cuadro p {
       font-family: Roboto;
       text-align: left;
       padding: 5px;
       font-size: 1.2em; }
+
+.catalago {
+  padding: 40px 0px;
+  background-color: #A7D8D5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1.7em;
+  font-weight: lighter; }
+  .catalago i {
+    color: #132B3C; }
+
+.faq {
+  padding: 50px 0px;
+  background-color: #F9DC5F;
+  text-align: center;
+  font-family: Roboto; }
+  .faq h2 {
+    font-size: 3em; }
+  .faq p {
+    font-size: 2em;
+    font-weight: lighter; }
+  .faq .cuadro {
+    margin: 20px 0px;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 50px 20px; }
+    .faq .cuadro p {
+      font-size: 1.3em;
+      font-weight: lighter; }
+    .faq .cuadro .duda {
+      font-weight: bold;
+      padding: 20px 0px 10px 0px; }
+    .faq .cuadro a {
+      color: #92D6CC;
+      font-weight: bold; }
+
+.organiza {
+  background-color: #F9DC5F;
+  padding: 50px 0px;
+  text-align: center;
+  font-family: Roboto; }
+  .organiza p {
+    font-size: 1.7em;
+    color: #132B3C;
+    font-weight: lighter; }
+  .organiza .cursiva {
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic; }
+  .organiza .boton {
+    margin: 40px auto;
+    text-align: center; }
+  .organiza a {
+    text-align: center;
+    color: #F9DC5F;
+    background-color: #1F3B49;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-size: 1.5em;
+    text-decoration: none; }
+
+.foot {
+  background-color: #1F3B49;
+  color: #ffffff;
+  padding: 40px 0px 10px 0px; }
+  .foot .social {
+    text-align: center; }
+    .foot .social img {
+      width: 50px;
+      height: auto; }
+  .foot .direccion {
+    text-align: right; }
+  .foot .autor {
+    text-align: center;
+    font-size: 1.2em; }
+    .foot .autor a {
+      color: #FBB03B; }
 
 /*# sourceMappingURL=style.css.map */
