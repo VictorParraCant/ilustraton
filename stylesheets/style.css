@@ -38,6 +38,8 @@
     margin: 0px auto; }
   .principal .titulo {
     margin-top: 100px; }
+  .principal .fecha {
+    display: inline-flex; }
   .principal h1 {
     margin: 0px 0px;
     padding: 0px 0px;
@@ -100,10 +102,18 @@
       font-weight: lighter;
       font-size: 1em;
       padding: 10px 40px;
-      text-align: left; }
+      text-align: center;
+      color: #303030; }
   .info .marquesina {
     padding: 30px 0px;
     background-color: #132B3C; }
+  .info .triangulo {
+    margin: 0px auto;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #132B3C;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent; }
 
 .agenda {
   font-family: Roboto;
@@ -129,14 +139,33 @@
       font-size: 1.2em; }
 
 .catalago {
-  padding: 40px 0px;
-  background-color: #A7D8D5;
+  padding: 0px;
+  background-color: #ffffff;
   text-align: center;
   font-family: Roboto;
   font-size: 1.7em;
   font-weight: 300; }
+  .catalago p {
+    margin-top: 40px; }
   .catalago i {
     color: #132B3C; }
+  .catalago .cuadrado {
+    margin: 0px auto;
+    width: 100%;
+    height: 50px;
+    background-color: #A7D8D5; }
+  .catalago .trapecio-top {
+    margin: 0px auto;
+    width: 100%;
+    height: 0px;
+    border-right: 600px solid transparent;
+    border-left: 600px solid transparent;
+    border-top: 250px solid #A7D8D5; }
+  .catalago .fila {
+    margin: 0px auto;
+    width: 20px;
+    height: 140px;
+    background-color: #F9DC5F; }
 
 .faq {
   padding: 50px 0px;
@@ -147,7 +176,6 @@
     font-size: 3em; }
   .faq p {
     font-size: 2em;
-    font-style: italic;
     font-weight: lighter; }
   .faq .cuadro {
     margin: 20px 0px;
@@ -190,6 +218,13 @@
     border-radius: 20px;
     font-size: 1.5em;
     text-decoration: none; }
+  .organiza .triangulo {
+    margin: 0px auto;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #1F3B49;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent; }
 
 .foot {
   background-color: #1F3B49;
