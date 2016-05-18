@@ -1,16 +1,27 @@
 /* Colors */
 .navegador {
+  font-family: Oswald;
   padding: 30px 0px;
-  background: #ffffff; }
+  background-color: #ffffff; }
   .navegador a {
     text-align: center;
     color: #252525;
     font-size: 1.5em;
     font-family: Roboto;
-    border-bottom: solid 2px #252525;
-    margin: 0px 10px; }
-  .navegador .noSub {
-    border-bottom: none; }
+    border-bottom: solid 3px #252525;
+    margin: 0px 40px; }
+    @media (max-width: 1090px) {
+      .navegador a {
+        margin: 0px 10px; } }
+    .navegador a:hover {
+      color: #92D6CC;
+      background-color: #ffffff !important; }
+    .navegador a:focus {
+      color: #92D6CC;
+      background-color: #ffffff !important; }
+    .navegador a.noSub {
+      border-bottom: none;
+      margin: 0px; }
   .navegador img {
     margin: -35px 20px;
     width: auto;
@@ -33,38 +44,42 @@
     text-align: right;
     font-size: 5em;
     font-weight: bold;
-    font-family: Roboto;
+    font-family: Amaranth;
     color: #132B3C; }
-  .principal .red {
-    color: #E42841; }
+    .principal h1.red {
+      color: #E42841; }
   .principal .border {
-    border-bottom: 10px solid #ffffff;
-    padding: 0px 10px; }
+    padding: 5px 0px;
+    background-color: #ffffff;
+    border-radius: 20px; }
   .principal .boton {
     margin: 60px auto;
     text-align: center; }
-  .principal a {
-    text-align: center;
-    color: #F9DC5F;
-    background-color: #E42841;
-    padding: 20px 30px;
-    border-radius: 20px;
-    font-size: 1.5em;
-    text-decoration: none; }
+    .principal .boton a {
+      text-align: center;
+      color: #F9DC5F;
+      background-color: #E42841;
+      padding: 20px 30px;
+      border-radius: 20px;
+      font-size: 1.5em;
+      text-decoration: none; }
   .principal p {
-    font-size: 2em;
+    font-family: Bitter;
+    font-style: italic;
+    font-size: 1.8em;
     text-align: center;
     padding: 5px 0px; }
 
 .info {
   font-family: Roboto;
   background-color: #F9DC5F;
-  padding: 50px 0px; }
+  padding: 20px 0px 50px 0px; }
   .info .titulo {
     margin: 50px 0px;
     text-align: center;
-    font-size: 2em;
-    font-weight: lighter; }
+    font-size: 1.8em;
+    font-weight: 100;
+    font-style: italic; }
   .info img {
     margin: 60px auto; }
   .info .cuadro {
@@ -72,37 +87,43 @@
     background-color: #ffffff;
     border-radius: 20px;
     min-height: 250px; }
-    .info .cuadro p {
-      font-family: Roboto; }
     .info .cuadro .pregunta {
+      font-family: Roboto;
+      font-style: italic;
       color: #C6AB38;
       font-size: 2.5em;
       font-weight: lighter;
       padding-top: 20px;
       text-align: center; }
     .info .cuadro .respuesta {
+      font-family: Roboto Slab;
       font-weight: lighter;
-      font-size: 1.3em;
-      padding: 10px 25px;
+      font-size: 1em;
+      padding: 10px 40px;
       text-align: left; }
+  .info .marquesina {
+    padding: 30px 0px;
+    background-color: #132B3C; }
 
 .agenda {
+  font-family: Roboto;
   background-color: #A7D8D5;
   padding: 50px 0px; }
   .agenda h2 {
+    color: #1F3B49;
     padding: 10px 0px;
     margin: 50px 0px;
     text-align: center;
-    font-size: 3.5em;
-    font-weight: bold; }
+    font-size: 3.5em; }
   .agenda .cuadro {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 25px 20px;
     margin: 10px 20px;
-    min-height: 400px; }
+    min-height: 500px; }
     .agenda .cuadro p {
-      font-family: Roboto;
+      font-family: Roboto Slab;
+      font-weight: 300;
       text-align: left;
       padding: 5px;
       font-size: 1.2em; }
@@ -113,7 +134,7 @@
   text-align: center;
   font-family: Roboto;
   font-size: 1.7em;
-  font-weight: lighter; }
+  font-weight: 300; }
   .catalago i {
     color: #132B3C; }
 
@@ -126,6 +147,7 @@
     font-size: 3em; }
   .faq p {
     font-size: 2em;
+    font-style: italic;
     font-weight: lighter; }
   .faq .cuadro {
     margin: 20px 0px;
@@ -136,7 +158,7 @@
       font-size: 1.3em;
       font-weight: lighter; }
     .faq .cuadro .duda {
-      font-weight: bold;
+      font-weight: 400;
       padding: 20px 0px 10px 0px; }
     .faq .cuadro a {
       color: #92D6CC;
@@ -144,14 +166,16 @@
 
 .organiza {
   background-color: #F9DC5F;
-  padding: 50px 0px;
+  padding: 50px 0px 0px 0px;
   text-align: center;
   font-family: Roboto; }
   .organiza p {
     font-size: 1.7em;
     color: #132B3C;
-    font-weight: lighter; }
+    font-weight: 300; }
   .organiza .cursiva {
+    padding: 20px 0px;
+    font-weight: lighter;
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic; }
@@ -170,9 +194,17 @@
 .foot {
   background-color: #1F3B49;
   color: #ffffff;
-  padding: 40px 0px 10px 0px; }
+  padding: 40px 0px 10px 0px;
+  font-family: Roboto Slab;
+  font-weight: lighter; }
+  .foot img {
+    width: 160px;
+    height: auto; }
+  .foot p {
+    font-size: 1em; }
   .foot .social {
-    text-align: center; }
+    text-align: center;
+    vertical-align: middle; }
     .foot .social img {
       width: 50px;
       height: auto; }
@@ -180,7 +212,7 @@
     text-align: right; }
   .foot .autor {
     text-align: center;
-    font-size: 1.2em; }
+    font-size: 1em; }
     .foot .autor a {
       color: #FBB03B; }
 
