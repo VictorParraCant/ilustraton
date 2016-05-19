@@ -7,7 +7,6 @@
     text-align: center;
     color: #252525;
     font-size: 1.5em;
-    border-bottom: solid 3px #252525;
     margin: 0px 40px; }
     @media (max-width: 1090px) {
       .navegador a {
@@ -147,7 +146,7 @@
       font-family: Roboto Slab;
       font-weight: 300;
       text-align: left;
-      padding: 5px;
+      padding: 5px 10px;
       font-size: 1.2em; }
     .agenda .cuadro .red {
       color: #E42841; }
@@ -167,6 +166,9 @@
   font-family: Roboto;
   font-size: 1.7em;
   font-weight: 300; }
+  @media (max-width: 767px) {
+    .catalago {
+      background-color: #A7D8D5; } }
   .catalago p {
     margin-top: 40px; }
   .catalago i {
@@ -183,6 +185,16 @@
     border-right: 600px solid transparent;
     border-left: 600px solid transparent;
     border-top: 250px solid #A7D8D5; }
+    @media (max-width: 1220px) {
+      .catalago .trapecio-top {
+        border-right: 450px solid transparent;
+        border-left: 450px solid transparent;
+        border-top: 250px solid #A7D8D5; } }
+    @media (max-width: 930px) {
+      .catalago .trapecio-top {
+        border-right: 350px solid transparent;
+        border-left: 350px solid transparent;
+        border-top: 250px solid #A7D8D5; } }
   .catalago .fila {
     margin: 0px auto;
     width: 20px;
