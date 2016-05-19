@@ -1,13 +1,12 @@
 /* Colors */
 .navegador {
-  font-family: Oswald;
   padding: 30px 0px;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  font-family: Roboto Condensed; }
   .navegador a {
     text-align: center;
     color: #252525;
     font-size: 1.5em;
-    font-family: Roboto;
     border-bottom: solid 3px #252525;
     margin: 0px 40px; }
     @media (max-width: 1090px) {
@@ -30,6 +29,10 @@
     background-color: #132B3C; }
 
 .principal {
+  background-image: url("../images/Nubes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   background-color: #F9DC5F;
   padding-top: 130px; }
   .principal img {
@@ -37,9 +40,12 @@
     height: auto;
     margin: 0px auto; }
   .principal .titulo {
-    margin-top: 100px; }
+    margin-top: 100px;
+    display: inline-block;
+    float: right; }
   .principal .fecha {
-    display: inline-flex; }
+    display: inline-flex;
+    float: right; }
   .principal h1 {
     margin: 0px 0px;
     padding: 0px 0px;
@@ -53,7 +59,8 @@
   .principal .border {
     padding: 5px 0px;
     background-color: #ffffff;
-    border-radius: 20px; }
+    border-radius: 20px;
+    margin: inherit; }
   .principal .boton {
     margin: 60px auto;
     text-align: center; }
@@ -118,25 +125,40 @@
 .agenda {
   font-family: Roboto;
   background-color: #A7D8D5;
-  padding: 50px 0px; }
+  padding: 50px 0px;
+  color: #132B3C; }
   .agenda h2 {
-    color: #1F3B49;
     padding: 10px 0px;
     margin: 50px 0px;
     text-align: center;
     font-size: 3.5em; }
+  .agenda h3 {
+    color: #E42841;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.8em; }
   .agenda .cuadro {
     background-color: #ffffff;
     border-radius: 20px;
     padding: 25px 20px;
     margin: 10px 20px;
-    min-height: 500px; }
+    min-height: 535px; }
     .agenda .cuadro p {
       font-family: Roboto Slab;
       font-weight: 300;
       text-align: left;
       padding: 5px;
       font-size: 1.2em; }
+    .agenda .cuadro .red {
+      color: #E42841; }
+    .agenda .cuadro .charla {
+      color: #132b3c; }
+    .agenda .cuadro a {
+      text-decoration: none;
+      color: #92D6CC;
+      font-weight: bold; }
+    .agenda .cuadro img {
+      margin: 30px auto; }
 
 .catalago {
   padding: 0px;
@@ -193,6 +215,9 @@
       font-weight: bold; }
 
 .organiza {
+  background-image: url("../images/MochilaPNG.png");
+  background-repeat: no-repeat;
+  background-position: right;
   background-color: #F9DC5F;
   padding: 50px 0px 0px 0px;
   text-align: center;
@@ -227,6 +252,7 @@
     border-right: 60px solid transparent; }
 
 .foot {
+  margin-top: -2px;
   background-color: #1F3B49;
   color: #ffffff;
   padding: 40px 0px 10px 0px;
