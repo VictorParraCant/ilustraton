@@ -67,19 +67,31 @@ nav.stroke ul li a:hover:after {
     margin: 0px auto; }
   .principal .titulo {
     margin-top: 100px;
-    display: inline-block;
     float: right; }
+    @media (max-width: 768px) {
+      .principal .titulo {
+        margin: 50px auto 0px auto;
+        float: none;
+        text-align: center; } }
   .principal .fecha {
     display: inline-flex;
     float: right; }
+    @media (max-width: 768px) {
+      .principal .fecha {
+        float: none;
+        text-align: center; } }
   .principal h1 {
-    margin: 0px 0px;
+    margin: 0px auto;
     padding: 0px 0px;
     text-align: right;
     font-size: 5em;
     font-weight: bold;
     font-family: Amaranth;
     color: #132B3C; }
+    @media (max-width: 768px) {
+      .principal h1 {
+        text-align: center;
+        font-size: 4em; } }
     .principal h1.red {
       color: #E42841; }
   .principal .border {
@@ -267,7 +279,11 @@ nav.stroke ul li a:hover:after {
   .organiza p {
     font-size: 1.7em;
     color: #132B3C;
-    font-weight: 300; }
+    font-weight: 300;
+    text-align: center; }
+    @media (max-width: 768px) {
+      .organiza p {
+        font-size: 1.3em; } }
   .organiza .cursiva {
     padding: 20px 0px;
     font-weight: lighter;
@@ -303,6 +319,9 @@ nav.stroke ul li a:hover:after {
   .foot img {
     width: 160px;
     height: auto; }
+    @media (max-width: 992px) {
+      .foot img {
+        margin: 0px auto 10px auto; } }
   .foot p {
     font-size: 1em; }
   .foot .social {
@@ -312,7 +331,8 @@ nav.stroke ul li a:hover:after {
       width: 50px;
       height: auto; }
   .foot .direccion {
-    text-align: right; }
+    text-align: right;
+    padding: 10px 0px; }
   .foot .autor {
     text-align: center;
     font-size: 1em; }
