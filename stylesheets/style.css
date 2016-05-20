@@ -91,7 +91,7 @@ nav.stroke ul li a:hover:after {
     @media (max-width: 768px) {
       .principal h1 {
         text-align: center;
-        font-size: 4em; } }
+        font-size: 3.8em; } }
     .principal h1.red {
       color: #E42841; }
   .principal .border {
@@ -175,6 +175,9 @@ nav.stroke ul li a:hover:after {
     font-weight: bold;
     text-align: left;
     font-size: 2.8em; }
+    @media (max-width: 768px) {
+      .agenda h3 {
+        font-size: 2.5em; } }
   .agenda .cuadro {
     background-color: #ffffff;
     border-radius: 20px;
@@ -270,12 +273,13 @@ nav.stroke ul li a:hover:after {
   background-repeat: no-repeat;
   background-position: right;
   background-color: #F9DC5F;
-  padding: 50px 0px 0px 0px;
+  padding-top: 50px;
   text-align: center;
   font-family: Roboto; }
   @media (max-width: 768px) {
     .organiza {
-      background-image: url(); } }
+      background-image: url();
+      padding-top: 0px; } }
   .organiza p {
     font-size: 1.7em;
     color: #132B3C;
@@ -333,9 +337,11 @@ nav.stroke ul li a:hover:after {
   .foot .direccion {
     text-align: right;
     padding: 10px 0px; }
+    @media (max-width: 992px) {
+      .foot .direccion {
+        text-align: center; } }
   .foot .autor {
-    text-align: center;
-    font-size: 1em; }
+    text-align: center; }
     .foot .autor a {
       color: #FBB03B; }
 
