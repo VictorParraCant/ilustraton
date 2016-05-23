@@ -1,12 +1,24 @@
 /* Colors */
-nav ul li a {
-  transition: all .5s; }
+nav {
+  transition: all .8s; }
+  nav img {
+    transition: all .8s; }
+  nav ul li a {
+    transition: all .5s; }
 
-nav ul li a:after {
-  transition: all .5s; }
+nav {
+  transition: all .8s; }
+  nav img {
+    transition: all .8s; }
+  nav ul li a:after {
+    transition: all .5s; }
 
-nav ul li a:before {
-  transition: all .5s; }
+nav {
+  transition: all .8s; }
+  nav img {
+    transition: all .8s; }
+  nav ul li a:before {
+    transition: all .5s; }
 
 nav.stroke ul li a:after {
   position: absolute;
@@ -51,13 +63,20 @@ nav.stroke ul li a:hover:after {
   .navegador span {
     background-color: #132B3C; }
 
+.top-nav-collapse {
+  padding: 15px 0px; }
+  .top-nav-collapse img {
+    margin: -20px 20px;
+    width: auto;
+    height: 60px; }
+
 .principal {
   background-image: url("../images/Nubes.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-color: #F9DC5F;
-  padding-top: 130px; }
+  padding: 130px 0px 20px 0px; }
   @media (max-width: 768px) {
     .principal {
       background-image: url(); } }
@@ -120,7 +139,7 @@ nav.stroke ul li a:hover:after {
 .info {
   font-family: Roboto;
   background-color: #F9DC5F;
-  padding: 20px 0px 50px 0px; }
+  padding: 0px 0px 50px 0px; }
   .info .titulo {
     margin: 50px 0px;
     text-align: center;
@@ -242,6 +261,8 @@ nav.stroke ul li a:hover:after {
     width: 20px;
     height: 140px;
     background-color: #F9DC5F; }
+  .catalago .modal img {
+    margin: 0px auto; }
 
 .faq {
   padding: 50px 0px;
