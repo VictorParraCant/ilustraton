@@ -35,6 +35,9 @@ nav.stroke ul li a:after {
 nav.stroke ul li a:hover:after {
   width: 100%; }
 
+.navbar-collapse.in {
+  overflow-y: hidden; }
+
 .navegador {
   padding: 30px 0px;
   background-color: #ffffff;
@@ -49,10 +52,10 @@ nav.stroke ul li a:hover:after {
         margin: 0px 10px; } }
     .navegador a:hover {
       color: #92D6CC;
-      background-color: #ffffff !important; }
+      background-color: transparent !important; }
     .navegador a:focus {
       color: #92D6CC;
-      background-color: #ffffff !important; }
+      background-color: transparent !important; }
     .navegador a.noSub {
       border-bottom: none;
       margin: 0px; }
@@ -95,6 +98,11 @@ nav.stroke ul li a:hover:after {
   .principal .fecha {
     display: inline-flex;
     float: right; }
+    .principal .fecha p {
+      color: #132B3C;
+      font-size: 2.5em;
+      font-weight: 600;
+      padding: 10px 10px; }
     @media (max-width: 768px) {
       .principal .fecha {
         float: none;
@@ -111,8 +119,8 @@ nav.stroke ul li a:hover:after {
       .principal h1 {
         text-align: center;
         font-size: 3.8em; } }
-    .principal h1.red {
-      color: #E42841; }
+  .principal span.red {
+    color: #E42841; }
   .principal .border {
     padding: 5px 0px;
     background-color: #ffffff;
@@ -163,7 +171,7 @@ nav.stroke ul li a:hover:after {
       font-style: italic;
       color: #C6AB38;
       font-size: 2.5em;
-      font-weight: lighter;
+      font-weight: normal;
       padding-top: 20px;
       text-align: center; }
     .info .cuadro .respuesta {
@@ -285,6 +293,7 @@ nav.stroke ul li a:hover:after {
     text-align: center;
     font-size: 3.5em; }
   .agenda h3 {
+    font-family: Roboto Slab;
     color: #E42841;
     font-weight: bold;
     text-align: left;
