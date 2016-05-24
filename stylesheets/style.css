@@ -106,7 +106,9 @@ nav.stroke ul li a:hover:after {
     @media (max-width: 768px) {
       .principal .fecha {
         float: none;
-        text-align: center; } }
+        text-align: center; }
+        .principal .fecha p {
+          font-size: 2em; } }
   .principal h1 {
     margin: 0px auto;
     padding: 0px 0px;
