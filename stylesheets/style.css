@@ -74,15 +74,8 @@ nav.stroke ul li a:hover:after {
     height: 60px; }
 
 .principal {
-  background-image: url("../images/Nubes.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
   background-color: #F9DC5F;
   padding: 130px 0px 20px 0px; }
-  @media (max-width: 768px) {
-    .principal {
-      background-image: url(); } }
   .principal img {
     width: 110%;
     height: auto;
@@ -145,6 +138,30 @@ nav.stroke ul li a:hover:after {
     font-size: 1.8em;
     text-align: center;
     padding: 5px 0px; }
+
+.nube {
+  position: absolute;
+  margin: 0px auto;
+  width: 90%;
+  height: 90%;
+  background-image: url("../images/Nubes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: nube 5s infinite; }
+  @media (max-width: 768px) {
+    .nube {
+      background-image: url(); } }
+
+@keyframes nube {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: ease-in; }
+  50% {
+    transform: translate3d(50px, 0px, 0px);
+    animation-timing-function: ease-out; }
+  100% {
+    transform: translate3d(0px, 0px, 0px); } }
 
 .info {
   font-family: Roboto;
