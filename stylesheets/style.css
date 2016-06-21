@@ -325,7 +325,7 @@ nav.stroke ul li a:hover:after {
     border-radius: 20px;
     padding: 25px 20px;
     margin: 10px 20px;
-    min-height: 535px; }
+    min-height: 560px; }
     .agenda .cuadro p {
       font-family: Roboto Slab;
       font-weight: 300;
@@ -334,14 +334,33 @@ nav.stroke ul li a:hover:after {
       font-size: 1.2em; }
     .agenda .cuadro .red {
       color: #E42841; }
-    .agenda .cuadro .charla {
-      color: #132b3c; }
+    .agenda .cuadro .target {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      color: #132B3C; }
+      .agenda .cuadro .target .data {
+        width: 70%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        padding: 20px 0px; }
+        .agenda .cuadro .target .data p {
+          padding: 0px 10px; }
+        .agenda .cuadro .target .data .nombre {
+          color: #E42841;
+          font-weight: 700;
+          font-size: 1.3em; }
+        .agenda .cuadro .target .data .empresa {
+          font-style: italic;
+          font-size: 1em; }
+        .agenda .cuadro .target .data .charla {
+          font-size: 1em; }
     .agenda .cuadro a {
       text-decoration: none;
       color: #92D6CC;
       font-weight: bold; }
-    .agenda .cuadro img {
-      margin: 30px auto; }
 
 .catalago {
   padding: 0px;
